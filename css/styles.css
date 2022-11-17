@@ -656,12 +656,12 @@ margin-left: 30px;
 }
 .container-footer {
   display: flex;
+  justify-content: space-between;
   align-items: baseline;
 }
 .all-block {
   display: flex;
   align-items: baseline;
-  margin-right: 70px;
 }
 .logo-block {
   display: flex;
@@ -1044,7 +1044,7 @@ color: var(--accent-color);
   fill: var(--accent-color);
 }
 .input-call:hover, .input-call:focus {
-  border: 1px solid var(--accent-color);
+  outline: 1px solid var(--accent-color);
 }
 .checkbox {
   appearance: none;
